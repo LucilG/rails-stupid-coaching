@@ -1,8 +1,14 @@
 <h1>Ask for something !</h1>
 
-<form action="/answer" data-turbo="false" method="get">
-  <input type="text" name="question" placeholder="Ask for ...">
-  <input type="submit" value="Ask!" >
-</form>
+<main>
+  <form action="/answer" data-turbo="false" method="get">
+    <input type="text" name="question" placeholder="Ask for ...">
+    <input type="submit" value="Ask!" id="button" >
+  </form>
+</main>
 
-<%= link_to "Go back to Home Page", root_path %>
+<footer>
+  <ul>
+    <li><%= link_to "Go back to Home Page", root_path %></li>
+  </ul>
+</footer>

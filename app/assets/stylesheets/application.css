@@ -14,6 +14,17 @@
  *= require_self
  */
 
+ h1 {
+  margin: 5px;
+  margin-bottom: 10px;
+  font-size: x-large;
+  text-align: left;
+ }
+
+ main {
+  margin: 5px;
+ }
+
  #question {
   text-align: left;
   background-color: lightgray;
@@ -34,4 +45,15 @@
 
 .italic {
   font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#button {
+  background-color: lightgrey;
+  color: black;
+  border-radius: 3px;
 }

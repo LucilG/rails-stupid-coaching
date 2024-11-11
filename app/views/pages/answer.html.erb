@@ -1,4 +1,6 @@
 <h1>Page Answer</h1>
+
+<main>
 <div id="question">
   <p><%= params[:question] %></p>
   <p class="italic">-You</p>
@@ -7,7 +9,11 @@
   <p><%=@answer %></p>
   <p class="italic">-You coach</p>
 </div>
+</main>
+
 <footer>
-  <%= link_to "Go back to Home Page", root_path %>
-  <%= link_to "Ask again for ...", ask_path %>
+  <ul>
+    <li><%= link_to "Go back to Home Page", root_path %></li>
+    <li><%= link_to "Ask again for ...", ask_path %></li>
+  </ul>
 </footer>
